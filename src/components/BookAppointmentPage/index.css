@@ -1,0 +1,96 @@
+
+.book-appointment-form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.appointment-form-container {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 40px;
+    border-radius: 10px;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+}
+.form-heading {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+}
+.input-label {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: gray;
+    padding-bottom: 10px;
+}
+.input {
+    height: 20px;
+    border-radius: 8px;
+    border-width: 0px;
+    outline: none;
+    border: 1px solid gray;
+    padding: 10px;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+}
+.confirm-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.confirm-btn {
+    height: 40px;
+    width: 170px;
+    background-color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: bold;
+    border-width: 0px;
+    border: 1px solid gray;
+    transition: 0.3s;
+}
+.confirm-btn:hover {
+    background-color: #09bfe8;
+    color: #ffffff;
+    border-width: 0px;
+}
+.confirm-msg {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.book-another-btn {
+    height: 40px;
+    width: 200px;
+    background-color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: bold;
+    border-width: 0px;
+    border: 1px solid gray;
+    transition: 0.3s;
+}
+.book-another-btn:hover {
+    background-color: #09bfe8;
+    color: #ffffff;
+    border-width: 0px;
+}

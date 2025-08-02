@@ -1,0 +1,45 @@
+
+.home-container {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.heading {
+    font-family: "Roboto";
+    color: #000000;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.description {
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 500;
+}
+.book-btn {
+    height: 40px;
+    width: 170px;
+    background-color: #ffffff;
+    font-family: "Roboto";
+    font-weight: 500;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: bold;
+    border-width: 0px;
+    border: 1px solid gray;
+    transition: 0.3s;
+}
+.book-btn:hover {
+    background-color: #09bfe8;
+    color: #ffffff;
+    border-width: 0px;
+}
+.home-image {
+    width: 50%;
+}

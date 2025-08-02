@@ -1,0 +1,68 @@
+
+.doctors-page-container {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    min-height: 80vh;
+    padding-top: 50px;
+    width: 80%;
+}
+.input-search {
+    height: 40px;
+    width: 50%;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: "Roboto";
+    border-width: 0px;
+    border: 1px solid gray;
+    outline: none;
+}
+.doctors-list-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 30px;
+    width: 100%;
+    
+}
+.doctor-card {
+    list-style-type: none;
+    width: 20%;
+    border-radius: 10px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+.doctor-image {
+    width: 100%;
+    border-radius: 10px;
+}
+.doctor-name {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #000000;
+    font-size: 25px;
+}
+.spec-avail-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.specialization {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: #000000;
+}
+.availability {
+    font-family: "Roboto";
+    font-weight: 500;
+    color: red;
+}
+.available {
+    color: #4feb34;
+}
+.card-link {
+    text-decoration: none;
+}

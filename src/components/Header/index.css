@@ -1,0 +1,52 @@
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 8vh;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.website-logo {
+    width: 100px;
+}
+.nav-tab {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.tab-link {
+    text-decoration: none;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+    transition: color 0.3s;
+}
+.tab-link:hover {
+    color: #68b7d4;
+}
+.login-btn {
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+    border: 1px solid gray;
+    background-color: transparent;
+    font-family: "Roboto";
+    font-weight: 500;
+    cursor: pointer;
+    font-family: "Roboto";
+    font-weight: bold;
+    transition: 0.3s;
+}
+.login-btn:hover {
+    background-color: #09bfe8;
+    color: #ffffff;
+    border-width: 0px;
+}
+.separator {
+    border: 1px solid #919ca1;
+    width: 100%;
+    margin-bottom: 0px;
+}
