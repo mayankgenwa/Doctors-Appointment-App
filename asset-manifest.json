@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Doctors-Appointment-App/static/css/main.a3dc4737.css",
+    "main.js": "/Doctors-Appointment-App/static/js/main.58748c63.js",
+    "index.html": "/Doctors-Appointment-App/index.html",
+    "main.a3dc4737.css.map": "/Doctors-Appointment-App/static/css/main.a3dc4737.css.map",
+    "main.58748c63.js.map": "/Doctors-Appointment-App/static/js/main.58748c63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3dc4737.css",
+    "static/js/main.58748c63.js"
+  ]
+}
